@@ -1,0 +1,55 @@
+.meme {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-top, .text-bottom {
+    position: absolute;
+    width: 100%;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.text-top {
+    top: 5px;
+}
+
+.text-bottom {
+    bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.delete-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.delete-btn:hover {
+    opacity: 1;
+}
+
+body {
+    background-color: rgb(115,133,145);
+
+}
+
+h1 {
+color: rgb(121, 219, 86);
+font-family:Georgia, 'Times New Roman', Times, serif
+}
